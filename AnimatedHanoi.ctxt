@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=pole
+comment0.target=void\ draw(int[])
+comment1.params=N
+comment1.target=void\ hanoi(int)
+comment2.params=n\ from\ temp\ to\ pole
+comment2.target=void\ hanoi(int,\ int,\ int,\ int,\ int[])
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

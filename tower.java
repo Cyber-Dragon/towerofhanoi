@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 /**
  * Write a description of class tower here.
  * 
@@ -19,8 +19,10 @@ public class tower {
   }
   
    public static void main(String[] args) {
-       
-    int nDisks = 5;
+    tower towers = new tower();
+    System.out.print("Enter number of discs: ");
+    Scanner scanner = new Scanner(System.in);
+    int nDisks = scanner.nextInt();
     solveTowers(nDisks, 'A', 'B', 'C');
   }
 }
